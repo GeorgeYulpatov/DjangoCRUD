@@ -1,0 +1,6 @@
+--extra-index-url http://pypi.bars-open.ru/simple/
+--trusted-host pypi.bars-open.ru
+
+django==2.2.2
+m3-django-compat==1.9.2
+m3-objectpack==2.2.47
