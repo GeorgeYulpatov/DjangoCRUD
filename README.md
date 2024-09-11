@@ -4,14 +4,16 @@ DjangoCRUD
 Чтобы запустить проект, Вам потребуется:
 
 - Клонировать репозиторий на свой ПК: https://github.com/tatarin10703/DjangoCRUD
-- Установить зависимости из файла requirements.txt: pip install -r requirements.txt
+- Установить зависимости из файла requirements.txt:
+  
+      pip install -r requirements.txt
+  
 - Создать и настройть базу БД: 
-
+    ```bash
     python manage.py makemigrations
-    
     python manage.py migrate
 - Запустить сервер: 
-
+    ```bash
     python manage.py runserver
 
 Примечание:
